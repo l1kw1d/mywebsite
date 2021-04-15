@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@1,700&display=swap");
+*,
+::before,
+::after {
+  box-sizing: border-box;                                                                                                                                                         
+  margin: 0;                                                                                                                                                                      
+}                                                                                                                                                                                 
+                                                                                                                                                                                  
+:root {                                                                                                                                                                           
+  --spacing:8px;                                                                                                                                                                  
+  font-size: 1.25rem;                                                                                                                                                             
+}                                                                                                                                                                                 
+                                                                                                                                                                                  
+h1 {                                                                                                                                                                              
+  white-space: nowrap;                                                                                                                                                            
+}                                                                                                                                                                                 
+                                                                                                                                                                                  
+html {                                                                                                                                                                            
+  font-family: "Exo";                                                                                                                                                             
+  color: #efe4f4;                                                                                                                                                                 
+}                                                                                                                                                                                 
+                                                                                                                                                                                  
+main {
+  height: 100vh;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: calc(var(--spacing) * 8);
+  flex-wrap: wrap;
+  gap: calc(var(--spacing) * 2);
+}
+section:nth-of-type(1) {
+  background-color: #6d42cc;
+}
+section:nth-of-type(2) {
+  background-color: #ff1f64;
+}
+section:nth-of-type(3) {
+  background-color: #f1aa4b;
+}
+section > div {
+  background: #121618;
+  padding: calc(var(--spacing) * 2);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing);
+  max-width: 25rem;
+  position: relative;
+  opacity: 0;
+  top: 60px;
+  transition: all 1s 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+section[data-is-visible=true] > div {
+  opacity: 1;
+  top: 0px;
+}
