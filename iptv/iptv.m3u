@@ -1,0 +1,129 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="1101" tvg-chno="1101" tvg-name="ICI TÉLÉ Montréal" tvg-country="CA" tvg-language="French" group-title="Entertainment",ICI TÉLÉ Montréal
+https://rcavlive-dai.akamaized.net/hls/live/696614/cancbftprem/master_5000.m3u8
+#EXTINF:-1 tvg-id="1102" tvg-chno="1102" tvg-name="Noovo" tvg-country="CA" tvg-language="French" group-title="Entertainment",NOOVO
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/noovo.vtele.ca.m3u8
+#EXTINF:-1 tvg-id="1103" tvg-chno="1103" tvg-name="TVA" tvg-country="CA" tvg-language="French" group-title="News",TVA
+https://chipsettelecom.ca/iptv/tva.m3u8
+#EXTINF:-1 tvg-id="1104" tvg-chno="1104" tvg-name="TELE Quebec" tvg-country="CA" tvg-language="French" group-title="Entertainment",TELE Quebec
+https://bcovlive-a.akamaihd.net/575d86160eb143458d51f7ab187a4e68/us-east-1/6101674910001/profile_0/chunklist.m3u8
+#EXTINF:-1 tvg-id="1108" tvg-chno="1108" tvg-name="RDS 1" tvg-country="CA" tvg-language="French" group-title="Sports",RDS 1
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/rds.rseau.des.sports.ca.m3u8
+#EXTINF:-1 tvg-id="1109" tvg-chno="1109" tvg-name="RDS 2" tvg-country="CA" tvg-language="French" group-title="Sports",RDS 2
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/rds.2.ca.m3u8
+#EXTINF:-1 tvg-id="1110" tvg-chno="1110" tvg-name="RDS INFO" tvg-country="CA" tvg-language="French" group-title="Sports",RDS INFO
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/rds.info.ca.m3u8
+#EXTINF:-1 tvg-id="1111" tvg-chno="1111" tvg-name="TVA Sport 1" tvg-country="CA" tvg-language="French" group-title="Sports",TVA Sport 1
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/tva.sports.ca.m3u8
+#EXTINF:-1 tvg-id="1112" tvg-chno="1112" tvg-name="TVA Sport 2" tvg-country="CA" tvg-language="French" group-title="Sports",TVA Sport 2
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/tva.sports.2.ca.m3u8
+#EXTINF:-1 tvg-id="1115" tvg-chno="1115" tvg-name="LCN" tvg-country="CA" tvg-language="French" group-title="News",LCN
+https://tvalive.akamaized.net/hls/live/2014213/tvan01/tvan01.m3u8
+#EXTINF:-1 tvg-id="1117" tvg-chno="1117" tvg-name="ICI RDI" tvg-country="CA" tvg-language="French" group-title="News",ICI RDI
+https://rcavlive.akamaized.net/hls/live/704026/canrdi/master_2500.m3u8
+#EXTINF:-1 tvg-id="1120" tvg-chno="1120" tvg-name="ADDIK" tvg-country="CA" tvg-language="French" group-title="",ADDIK
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/addik.tv.ca.m3u8
+#EXTINF:-1 tvg-id="1121" tvg-chno="1121" tvg-name="Z" tvg-country="CA" tvg-language="French" group-title="",Z
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/z.ca.m3u8
+#EXTINF:-1 tvg-id="1122" tvg-chno="1122" tvg-name="SÉRIES+" tvg-country="CA" tvg-language="French" group-title="",SÉRIES+
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/series.ca.m3u8
+#EXTINF:-1 tvg-id="1124" tvg-chno="1124" tvg-name="HISTORIA" tvg-country="CA" tvg-language="French" group-title="",HISTORIA
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/historia.ca.m3u8
+#EXTINF:-1 tvg-id="1125" tvg-chno="1125" tvg-name="CANAL D" tvg-country="CA" tvg-language="French" group-title="",CANAL D
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/canal.d.ca.m3u8
+#EXTINF:-1 tvg-id="1127" tvg-chno="1127" tvg-name="INVESTIGATION" tvg-country="CA" tvg-language="French" group-title="",INVESTIGATION
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/investigation.ca.m3u8
+#EXTINF:-1 tvg-id="1135" tvg-chno="1135" tvg-name="CASA" tvg-country="CA" tvg-language="French" group-title="",CASA
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/casa.ca.m3u8
+#EXTINF:-1 tvg-id="1136" tvg-chno="1136" tvg-name="ZESTE" tvg-country="CA" tvg-language="French" group-title="",ZESTE
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/zeste.ca.m3u8
+#EXTINF:-1 tvg-id="1137" tvg-chno="1137" tvg-name="CANAL Vie" tvg-country="CA" tvg-language="French" group-title="",CANAL Vie
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/v.ca.m3u8
+#EXTINF:-1 tvg-id="1147" tvg-chno="1147" tvg-name="CANAL Savoir" tvg-country="CA" tvg-language="French" group-title="",CANAL Savoir
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/savoir.mdia.ca.m3u8
+#EXTINF:-1 tvg-id="1150" tvg-chno="1150" tvg-name="VRAK" tvg-country="CA" tvg-language="French" group-title="",VRAK
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/vrak.ca.m3u8
+#EXTINF:-1 tvg-id="1152" tvg-chno="1152" tvg-name="YOOPA" tvg-country="CA" tvg-language="French" group-title="",YOOPA
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/yoopa.ca.m3u8
+#EXTINF:-1 tvg-id="1153" tvg-chno="1153" tvg-name="TELETOON" tvg-country="CA" tvg-language="French" group-title="",TELETOON
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/tltoon.franais.ca.m3u8
+#EXTINF:-1 tvg-id="1154" tvg-chno="1154" tvg-name="LA CHAINE DISNEY" tvg-country="CA" tvg-language="French" group-title="",LA CHAINE DISNEY
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/la.chaine.disney.ca.m3u8
+#EXTINF:-1 tvg-id="1161" tvg-chno="1161" tvg-name="SUPER ECRAN 1" tvg-country="CA" tvg-language="French" group-title="",SUPER ECRAN 1
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/super.ecran.1.ca.m3u8
+#EXTINF:-1 tvg-id="1162" tvg-chno="1162" tvg-name="SUPER ECRAN 2" tvg-country="CA" tvg-language="French" group-title="",SUPER ECRAN 2
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/super.ecran.2.ca.m3u8
+#EXTINF:-1 tvg-id="1163" tvg-chno="1163" tvg-name="SUPER ECRAN 3" tvg-country="CA" tvg-language="French" group-title="",SUPER ECRAN 3
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/super.ecran.3.ca.m3u8
+#EXTINF:-1 tvg-id="1164" tvg-chno="1164" tvg-name="SUPER ECRAN 4" tvg-country="CA" tvg-language="French" group-title="",SUPER ECRAN 4
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/super.ecran.4.ca.m3u8
+#EXTINF:-1 tvg-id="1166" tvg-chno="1166" tvg-name="Frissons TV" tvg-country="CA" tvg-language="French" group-title="",Frissons TV
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/frissons.tv.ca.m3u8
+#EXTINF:-1 tvg-id="1203" tvg-chno="1203" tvg-name="Global News Montreal" tvg-country="CA" tvg-language="English" group-title="CANADA ENGLISH",Global News Montreal
+https://live.corusdigitaldev.com/groupa/live/6bfb7f13-9d9d-4211-9c50-fb56330e4ccd/live.isml/.m3u8
+#EXTINF:-1 tvg-id="1205" tvg-chno="1205" tvg-name="CBC Montreal" tvg-country="CA" tvg-language="English" group-title="Entertainment",CBC Montreal
+https://cbclivedai3-i.akamaihd.net/hls/live/566976/event2/CBMT/master5.m3u8
+#EXTINF:-1 tvg-id="1300" tvg-chno="1300" tvg-name="CRAVE 1" tvg-country="CA" tvg-language="English" group-title="",CRAVE 1
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/crave1.east.ca.m3u8
+#EXTINF:-1 tvg-id="1301" tvg-chno="1301" tvg-name="CRAVE 2" tvg-country="CA" tvg-language="English" group-title="",CRAVE 2
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/crave2.east.ca.m3u8
+#EXTINF:-1 tvg-id="1302" tvg-chno="1302" tvg-name="CRAVE 3" tvg-country="CA" tvg-language="English" group-title="",CRAVE 3
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/crave3.east.ca.m3u8
+#EXTINF:-1 tvg-id="1303" tvg-chno="1303" tvg-name="CRAVE 4" tvg-country="CA" tvg-language="English" group-title="",CRAVE 4
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/crave4.east.ca.m3u8
+#EXTINF:-1 tvg-id="1306" tvg-chno="1306" tvg-name="HBO 1" tvg-country="CA" tvg-language="English" group-title="",HBO 1
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/hbo.ca.m3u8
+#EXTINF:-1 tvg-id="1307" tvg-chno="1307" tvg-name="HBO 2" tvg-country="CA" tvg-language="English" group-title="",HBO 2
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/hbo.2.eastern.ca.m3u8
+#EXTINF:-1 tvg-id="1412" tvg-chno="1412" tvg-name="BEIN SPORTS" tvg-country="CA" tvg-language="English" group-title="",BEIN SPORTS
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/bein.sport.canada.ca.m3u8
+#EXTINF:-1 tvg-id="1509" tvg-chno="1509" tvg-name="CNBC" tvg-country="US" tvg-language="English" group-title="",CNBC
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/cnbc.usa.us.m3u8
+#EXTINF:-1 tvg-id="1519" tvg-chno="1519" tvg-name="DISCOVERY VELOCITY" tvg-country="CA" tvg-language="English" group-title="",DISCOVERY VELOCITY
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/discovery.velocity.ca.m3u8
+#EXTINF:-1 tvg-id="1520" tvg-chno="1520" tvg-name="DISCOVERY CHANNEL" tvg-country="CA" tvg-language="English" group-title="",DISCOVERY CHANNEL
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/discovery.channel.can.ca.m3u8
+#EXTINF:-1 tvg-id="1522" tvg-chno="1522" tvg-name="HISTORY" tvg-country="CA" tvg-language="English" group-title="",HISTORY
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/history.canada.east.ca.m3u8
+#EXTINF:-1 tvg-id="1523" tvg-chno="1523" tvg-name="DISCOVERY SCIENCE" tvg-country="CA" tvg-language="English" group-title="",DISCOVERY SCIENCE
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/discovery.science.canada.ca.m3u8
+#EXTINF:-1 tvg-id="1564" tvg-chno="1564" tvg-name="ABC SPARK" tvg-country="CA" tvg-language="English" group-title="",ABC SPARK
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/abc.spark.ca.m3u8
+#EXTINF:-1 tvg-id="1500" tvg-chno="1500" tvg-name="CNN" tvg-country="CA" tvg-language="English" group-title="",CNN
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/cnn.ca.m3u8
+#EXTINF:-1 tvg-id="1505" tvg-chno="1505" tvg-name="THE WEATHER NETWORK" tvg-country="CA" tvg-language="English" group-title="",THE WEATHER NETWORK
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/weather.network.ca.m3u8
+#EXTINF:-1 tvg-id="1616" tvg-chno="1616" tvg-name="SHOWCASE" tvg-country="CA" tvg-language="English" group-title="",SHOWCASE
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/showcase.canada.ca.m3u8
+#EXTINF:-1 tvg-id="1638" tvg-chno="1638" tvg-name="CRIME & INVESTIGATION" tvg-country="CA" tvg-language="English" group-title="",CRIME & INVESTIGATION
+https://tvnow.best/api/stream/info@chipsettechnologie.ca/784079/livetv.epg/crime.investigation.ca.m3u8
+
+#EXTINF:-1,======== Stingray Music ========
+#EXTINF:-1 tvg-id="904" tvg-chno="904" tvg-name="Stingray Classic Rock" group-title="Stingray Music",Stingray Classic Rock
+https://stirr.ott-channels.stingray.com/101/master_1920x1080_1500kbps.m3u8
+#EXTINF:-1 tvg-id="902" tvg-chno="902" tvg-name="Stingray Rock Alternative" group-title="Stingray Music",Stingray Rock Alternative
+https://ott-linear-channels.stingray.com/102/master_1920x1080_1500kbps.m3u8
+#EXTINF:-1 tvg-id="907" tvg-chno="907" tvg-name="Stingray Pop Adult" group-title="Stingray Music",Stingray Pop Adult
+https://ott-linear-channels.stingray.com/104/master_1920x1080_1500kbps.m3u8
+#EXTINF:-1 tvg-id="1582" tvg-chno="1582" tvg-name="Stingray Hit List" group-title="Stingray Music",Stingray Hit List
+https://ott-linear-channels.stingray.com/107/master_1920x1080_1500kbps.m3u8
+#EXTINF:-1 tvg-id="913" tvg-chno="913" tvg-name="Stingray Hot Country" group-title="Stingray Music",Stingray Hot Country
+https://ott-linear-channels.stingray.com/108/master_1920x1080_1500kbps.m3u8
+#EXTINF:-1 tvg-id="910" tvg-chno="910" tvg-name="Stingray Flashback 70s" group-title="Stingray Music",Stingray Flashback 70s
+https://stirr.ott-channels.stingray.com/115/master_1920x1080_1500kbps.m3u8
+#EXTINF:-1 tvg-id="911" tvg-chno="911" tvg-name="Stingray Everything 80s" group-title="Stingray Music",Stingray Everything 80s
+https://stirr.ott-channels.stingray.com/128/master_1920x1080_1500kbps.m3u8
+#EXTINF:-1 tvg-id="916" tvg-chno="916" tvg-name="Stingray Urban Beat" group-title="Stingray Music",Stingray Urban Beat
+https://ott-linear-channels.stingray.com/133/master_1920x1080_1500kbps.m3u8
+#EXTINF:-1 tvg-id="906" tvg-chno="906" tvg-name="Stingray Greatest Hits" group-title="Stingray Music",Stingray Greatest Hits
+https://ott-linear-channels.stingray.com/155/master_1920x1080_1500kbps.m3u8
+#EXTINF:-1 tvg-id="1588" tvg-chno="1588" tvg-name="Stingray Qello Concerts" group-title="Stingray Music",Stingray Qello Concerts
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumostingrayqello/CDN/1920x1080_5161200/chunklist.m3u8
+#EXTINF:-1 tvg-id="1587" tvg-chno="1587" tvg-name="Stingray Karaoke" group-title="Stingray Music",Stingray Karaoke
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumostingraykaraoke/CDN/1920x1080_5161200/chunklist.m3u8
+#EXTINF:-1 tvg-id="1585" tvg-chno="1585" tvg-name="Stingray Naturescape" group-title="Stingray Music",Stingray Naturescape
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumostingraynaturescape/CDN/1920x1080_5161200/chunklist.m3u8
+
+
+
+
