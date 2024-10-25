@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Definitions -->
+  <defs>
+    <!-- Modern gradient background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A192F;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#112240;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Particle effect gradient -->
+    <radialGradient id="particleGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#64FFDA;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#64FFDA;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Blockchain pattern -->
+    <pattern id="blockchainPattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M20 20h60v60h-60z" fill="none" stroke="#64FFDA" stroke-width="1" opacity="0.1"/>
+      <path d="M50 20v60M20 50h60" stroke="#64FFDA" stroke-width="1" opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  <rect width="1200" height="630" fill="url(#blockchainPattern)"/>
+  
+  <!-- Decorative Circles -->
+  <circle cx="200" cy="315" r="180" fill="none" stroke="#64FFDA" stroke-width="1" opacity="0.1"/>
+  <circle cx="1000" cy="315" r="180" fill="none" stroke="#64FFDA" stroke-width="1" opacity="0.1"/>
+  
+  <!-- Main Visual Elements Group -->
+  <g transform="translate(600, 315)">
+    <!-- Animated Blockchain Hexagon -->
+    <path d="M0,-100 L86.6,-50 L86.6,50 L0,100 L-86.6,50 L-86.6,-50 Z" 
+          fill="none" 
+          stroke="#64FFDA" 
+          stroke-width="3"
+          opacity="0.8">
+      <animate attributeName="stroke-dasharray"
+               values="0,1000;1000,0"
+               dur="3s"
+               repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Inner Hexagon -->
+    <path d="M0,-60 L52,-30 L52,30 L0,60 L-52,30 L-52,-30 Z" 
+          fill="none" 
+          stroke="#64FFDA" 
+          stroke-width="2"
+          opacity="0.5"/>
+    
+    <!-- Connection Points -->
+    <circle cx="0" cy="-100" r="6" fill="#64FFDA" opacity="0.8"/>
+    <circle cx="86.6" cy="-50" r="6" fill="#64FFDA" opacity="0.8"/>
+    <circle cx="86.6" cy="50" r="6" fill="#64FFDA" opacity="0.8"/>
+    <circle cx="0" cy="100" r="6" fill="#64FFDA" opacity="0.8"/>
+    <circle cx="-86.6" cy="50" r="6" fill="#64FFDA" opacity="0.8"/>
+    <circle cx="-86.6" cy="-50" r="6" fill="#64FFDA" opacity="0.8"/>
+    
+    <!-- Center Lock Icon -->
+    <g transform="translate(0, 0) scale(0.8)">
+      <!-- Lock Body -->
+      <rect x="-20" y="-10" width="40" height="35" rx="5" fill="#64FFDA"/>
+      <!-- Lock Shackle -->
+      <path d="M-15,-10 L-15,-25 Q-15,-40 0,-40 Q15,-40 15,-25 L15,-10" 
+            fill="none" 
+            stroke="#64FFDA" 
+            stroke-width="8"
+            stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- Text Elements -->
+  <g transform="translate(600, 500)">
+    <text x="0" y="0" 
+          font-family="Arial, sans-serif" 
+          font-size="48" 
+          font-weight="bold" 
+          fill="#CCD6F6" 
+          text-anchor="middle">
+      Cybersecurity Expert
+    </text>
+    <text x="0" y="50" 
+          font-family="Arial, sans-serif" 
+          font-size="32" 
+          fill="#8892B0" 
+          text-anchor="middle">
+      Web3 • Fintech • Cloud Security
+    </text>
+  </g>
+  
+  <!-- Floating Particles -->
+  <g opacity="0.5">
+    <circle cx="200" cy="100" r="3" fill="#64FFDA">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="500" r="3" fill="#64FFDA">
+      <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="500" r="3" fill="#64FFDA">
+      <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="100" r="3" fill="#64FFDA">
+      <animate attributeName="opacity" values="0;1;0" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Binary Data Stream -->
+  <g opacity="0.2" fill="#64FFDA" font-family="monospace" font-size="14">
+    <text x="100" y="200">01001100 01001111 01000011 01001011</text>
+    <text x="800" y="400">01010111 01000101 01000010 00110011</text>
+  </g>
+</svg>
