@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+    <!-- Definitions -->
+    <defs>
+        <!-- Modern Gradient Background -->
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#1E293B;stop-opacity:1" />
+        </linearGradient>
+
+        <!-- Accent Gradient -->
+        <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#2563EB;stop-opacity:1" />
+        </linearGradient>
+
+        <!-- Glow Effect -->
+        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur" />
+            <feMerge>
+                <feMergeNode in="blur" />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+
+        <!-- Grid Pattern -->
+        <pattern id="gridPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.1"/>
+        </pattern>
+    </defs>
+
+    <!-- Background -->
+    <rect width="1200" height="600" fill="url(#bgGradient)"/>
+    <rect width="1200" height="600" fill="url(#gridPattern)"/>
+
+    <!-- Decorative Elements -->
+    <g opacity="0.1">
+        <circle cx="100" cy="100" r="200" fill="url(#accentGradient)" opacity="0.1"/>
+        <circle cx="1100" cy="500" r="200" fill="url(#accentGradient)" opacity="0.1"/>
+    </g>
+
+    <!-- Main Content Area -->
+    <g transform="translate(100, 100)">
+        <!-- Security Shield Icon -->
+        <path d="M100,50 L180,80 L180,140 C180,200 140,250 100,270 C60,250 20,200 20,140 L20,80 Z" 
+              fill="none" 
+              stroke="url(#accentGradient)" 
+              stroke-width="4"
+              filter="url(#glow)">
+            <animate attributeName="stroke-dasharray" 
+                     from="1000" 
+                     to="0"
+                     dur="3s" 
+                     repeatCount="indefinite"/>
+        </path>
+
+        <!-- Digital Circuit Lines -->
+        <g stroke="#3B82F6" stroke-width="2" opacity="0.6" filter="url(#glow)">
+            <path d="M200,100 H300 V200 H400">
+                <animate attributeName="stroke-dasharray" 
+                         values="0,1000;1000,0" 
+                         dur="4s" 
+                         repeatCount="indefinite"/>
+            </path>
+            <path d="M200,150 H350 V250">
+                <animate attributeName="stroke-dasharray" 
+                         values="0,1000;1000,0" 
+                         dur="3s" 
+                         repeatCount="indefinite"/>
+            </path>
+        </g>
+    </g>
+
+    <!-- Text Content -->
+    <g transform="translate(400, 250)">
+        <text x="0" y="0" 
+              font-family="Arial, sans-serif" 
+              font-size="48" 
+              font-weight="bold" 
+              fill="#ffffff"
+              filter="url(#glow)">
+            Senior Cybersecurity Expert
+        </text>
+        <text x="0" y="60" 
+              font-family="Arial, sans-serif" 
+              font-size="32" 
+              fill="#94A3B8">
+            Web3 • Fintech • Cloud Security
+        </text>
+        <text x="0" y="120" 
+              font-family="Arial, sans-serif" 
+              font-size="24" 
+              fill="#64748B">
+            Protecting Digital Assets Through Advanced Security Solutions
+        </text>
+    </g>
+
+    <!-- Bottom Stats -->
+    <g transform="translate(100, 500)">
+        <g transform="translate(0, 0)">
+            <text x="0" y="0" 
+                  font-family="Arial, sans-serif" 
+                  font-size="36" 
+                  font-weight="bold" 
+                  fill="#3B82F6">20+</text>
+            <text x="0" y="30" 
+                  font-family="Arial, sans-serif" 
+                  font-size="18" 
+                  fill="#94A3B8">Years Experience</text>
+        </g>
+        <g transform="translate(200, 0)">
+            <text x="0" y="0" 
+                  font-family="Arial, sans-serif" 
+                  font-size="36" 
+                  font-weight="bold" 
+                  fill="#3B82F6">500+</text>
+            <text x="0" y="30" 
+                  font-family="Arial, sans-serif" 
+                  font-size="18" 
+                  fill="#94A3B8">Security Audits</text>
+        </g>
+        <g transform="translate(400, 0)">
+            <text x="0" y="0" 
+                  font-family="Arial, sans-serif" 
+                  font-size="36" 
+                  font-weight="bold" 
+                  fill="#3B82F6">100%</text>
+            <text x="0" y="30" 
+                  font-family="Arial, sans-serif" 
+                  font-size="18" 
+                  fill="#94A3B8">Success Rate</text>
+        </g>
+    </g>
+
+    <!-- Animated Particles -->
+    <g>
+        <circle cx="200" cy="150" r="2" fill="#3B82F6">
+            <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="1000" cy="400" r="2" fill="#3B82F6">
+            <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="800" cy="200" r="2" fill="#3B82F6">
+            <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/>
+        </circle>
+    </g>
+</svg>
