@@ -1,9 +1,0 @@
-#EXTM3U
-#EXTINF:-1 tvg-id="1101" tvg-chno="1101" tvg-name="ICI TÉLÉ Montréal" tvg-country="CA" tvg-language="French" group-title="Entertainment",ICI TÉLÉ Montréal
-https://rcavlive-dai.akamaized.net/hls/live/696614/cancbftprem/master_5000.m3u8
-#EXTINF:-1 tvg-id="1103" tvg-chno="1103" tvg-name="TVA" tvg-country="CA" tvg-language="French" group-title="News",TVA
-https://chipsettelecom.ca/iptv/tva.m3u8
-#EXTINF:-1 tvg-id="1115" tvg-chno="1115" tvg-name="LCN" tvg-country="CA" tvg-language="French" group-title="News",LCN
-https://tvalive.akamaized.net/hls/live/2014213/tvan01/tvan01.m3u8
-#EXTINF:-1 tvg-id="1136" tvg-chno="1136" tvg-name="ZESTE" tvg-country="CA" tvg-language="French" group-title="",ZESTE
-https://chipsettelecom.ca/iptv/zeste.m3u8

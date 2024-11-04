@@ -1,8 +1,0 @@
-#EXTM3U
-#EXT-X-VERSION:4
-#EXT-X-INDEPENDENT-SEGMENTS
-
-#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio1",NAME="FRA",DEFAULT=YES,AUTOSELECT=YES,LANGUAGE="FRA",URI="https://ctszeste.akamaized.net/Content/HLS/Live/channel(bdfda20c-b73f-e8fc-8e12-e010830aa276)/05.m3u8"
-#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="caption_1",DEFAULT=NO,AUTOSELECT=YES,LANGUAGE="eng",URI="https://dai.google.com/linear/hls/pa/event/5DUWih-wSeOUg9zszuE-Jw/stream/712baec1-d6ea-4abe-882b-52a3545686fd:MRN2/variant/37502625c27e2a621d54c1a08a871331/bandwidth/000.m3u8"
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=4250250,CODECS="avc1.640029,mp4a.40.2",RESOLUTION=1280x720,FRAME-RATE=29.970,AUDIO="audio1",SUBTITLES="subs"
-https://ctszeste.akamaized.net/Content/HLS/Live/channel(bdfda20c-b73f-e8fc-8e12-e010830aa276)/03.m3u8
